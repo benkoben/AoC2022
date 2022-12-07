@@ -21,7 +21,6 @@ def main(url):
     value_letter = dict(enumerate(lower_and_upper, start=1))
     letter_value = { v: k for k,v in value_letter.items() }
     rucksacks  = get_input(url).splitlines()
-    print(type(rucksacks))
     prio_part_1 = 0
     prio_part_2 = 0
     for rucksack in rucksacks:
